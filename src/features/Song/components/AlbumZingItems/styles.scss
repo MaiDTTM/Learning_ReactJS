@@ -1,0 +1,13 @@
+.albumItem{
+
+ }
+
+.albumItem__item{
+  & > img{
+    width: 190px;
+    border-radius: 0.25rem;
+  }
+}
+.album__name{
+  font-weight: bold;
+}
