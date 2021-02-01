@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ColorBoxC from "../components/ColorBox/index";
 import Count from "./Count";
+import TodoList from "../features/Todo/components/TodoList";
 
 Index.propTypes = {
 
@@ -10,8 +11,9 @@ Index.propTypes = {
 function Index(props) {
     return (
         <div>
-            <ColorBoxC/>
-            <Count/>
+            {/*<TodoList/>*/}
+            {/*<ColorBoxC/>*/}
+            {/*<Count/>*/}
         </div>
     );
 }

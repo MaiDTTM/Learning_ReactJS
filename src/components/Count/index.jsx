@@ -14,8 +14,12 @@ function Count(props) {
     return (
         <div>
             {count}
-            <Button type="primary" shape="circle" icon={<PlusOutlined />} onClick = {() => setCount(x=>x+1)}/>
-            <Button type="primary" shape="circle" icon={<MinusOutlined />} onClick = {() => setCount(x=>x-1)}/>
+            <Button type="primary" shape="circle" icon={<PlusOutlined />} onClick = {
+                () => {
+                    setCount(x=> x+1);
+                }
+            }/>
+            <Button type="primary" shape="circle" icon={<MinusOutlined />} onClick = {() => setCount(x=> (x > 0) && (x-1))}/>
         </div>
     );
 }

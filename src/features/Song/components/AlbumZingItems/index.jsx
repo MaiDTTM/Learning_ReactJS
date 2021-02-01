@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import AlbumZing from "../AlbumZing";
-import './styles.scss';
+// import './styles.scss';
 
 AlbumZingItems.propTypes = {
 

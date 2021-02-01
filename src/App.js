@@ -35,9 +35,9 @@ function App() {
             {/*        ))}*/}
             {/*    </ul>*/}
             {/*</header>*/}
-            <AlbumList/>
-            {/*<TodoFuter/>*/}
-            <Index/>
+            {/*<AlbumList/>*/}
+            <TodoFuter/>
+            {/*<Index/>*/}
         </div>
 
     );
